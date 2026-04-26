@@ -1,0 +1,46 @@
+{
+  "name": "@agentopssec/agent-review",
+  "version": "1.0.0",
+  "description": "Review AI agent behavior, not just code diffs.",
+  "type": "module",
+  "homepage": "https://AgentOpsSec.com/projects/agent-review",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentOpsSec/agent-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentOpsSec/agent-review/issues"
+  },
+  "bin": {
+    "agent-review": "./bin/agent-review.js"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/agent-review.js && node --test"
+  },
+  "keywords": [
+    "agent",
+    "review",
+    "security",
+    "diff",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Aunt Gladys Nephew",
+    "url": "https://auntgladysnephew.com"
+  }
+}
