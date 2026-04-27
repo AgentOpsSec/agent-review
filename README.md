@@ -1,5 +1,7 @@
 # Agent Review
 
+![NPM Downloads](https://img.shields.io/npm/dw/%40agentopssec%2Fagent-review)
+
 **Review the agent's behavior, not just the code diff.**
 
 Agent Review evaluates AI agent runs for unsafe, unnecessary, or suspicious
